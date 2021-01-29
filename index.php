@@ -18,3 +18,18 @@ for ($i = 1; $i <= 100; $i++) {
         echo $i . "<br/>";
     }
 }
+
+
+// Ejercicio 3 = Escribe un programa que imprima por pantalla los cuadrados un numero multiplicado por si mismo de los 40 primeros numeros naturales; PD: Utilizar bucle while;
+
+
+$contador = 0;
+while($contador <= 40){
+    $cuadrado = $contador*$contador;
+    echo "<h3>$cuadrado</h3>";
+    $contador++;
+}
+
+
+
+// Ejercicio 4 = 
