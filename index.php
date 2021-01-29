@@ -26,7 +26,7 @@ for ($i = 1; $i <= 100; $i++) {
 $contador = 0;
 while($contador <= 40){
     $cuadrado = $contador*$contador;
-    echo "<h3>$cuadrado</h3>";
+    echo "<h3>El cuadrado de $contador es $cuadrado</h3>";
     $contador++;
 }
 
