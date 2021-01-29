@@ -1,5 +1,7 @@
 <?php
-// Ejercicio 1 = Crea dos variables cuyos nombres sean pais y continente e imprimir por pantalla; Poner en un comentario que tipo de dato tienen. Muestra por pantalla que tipos de datos son.
+/* Ejercicio 1 = Crea dos variables cuyos nombres sean pais y continente e imprimir por pantalla; Poner en un comentario que tipo de dato tienen. 
+*Muestra por pantalla que tipos de datos son.
+*/
 
 $pais = "España";  // String
 $continente = "Europa";  // String
@@ -20,8 +22,9 @@ for ($i = 1; $i <= 100; $i++) {
 }
 
 
-// Ejercicio 3 = Escribe un programa que imprima por pantalla los cuadrados un numero multiplicado por si mismo de los 40 primeros numeros naturales; PD: Utilizar bucle while;
-
+/* Ejercicio 3 = Escribe un programa que imprima por pantalla los cuadrados un numero multiplicado por si mismo de los 40 primeros numeros naturales;
+* PD: Utilizar bucle while;
+*/
 
 /*  Hecho con bucle while;
 $contador = 0;
@@ -40,4 +43,11 @@ for($contador = 0; $contador <= 40; $contador++){
     echo "<h3>El cuadrado de $contador es $cuadrado</h3>";
     $contador++;
 }
-// Ejercicio 4 = 
+
+
+
+/* Ejercicio 4 = Recoger dos numeros por la url (Parametros GET) y hacer todas las
+* 
+
+
+*/
