@@ -37,28 +37,46 @@ while($contador <= 40){
 
 
 //Hecho con bucle for;
-
+/*
 for ($contador = 0; $contador <= 40; $contador++) {
     $cuadrado = $contador * $contador;
     echo "<h3>El cuadrado de $contador es $cuadrado</h3>";
     $contador++;
 }
 
-
+*/
 
 /* Ejercicio 4 = Recoger dos numeros por la url (Parametros GET) y hacer todas las
 * operaciones basicas de una calculadora (suma, resta, multiplcación y división)
 *de esos dos numeros;
 */
-
+/*
 if (isset($_GET['numero1']) && isset($_GET['numero2'])) {
     $numero1 = $_GET['numero1'];
     $numero2 = $_GET['numero2'];
 
-    echo "Suma: ".($numero1+$numero2)."<br/>";
-    echo "Resta: ".($numero1-$numero2)."<br/>";
-    echo "Multiplicación: ".($numero1*$numero2)."<br/>";
-    echo "División: ".($numero1/$numero2)."<br/>";
+    echo "Suma: " . ($numero1 + $numero2) . "<br/>";
+    echo "Resta: " . ($numero1 - $numero2) . "<br/>";
+    echo "Multiplicación: " . ($numero1 * $numero2) . "<br/>";
+    echo "División: " . ($numero1 / $numero2) . "<br/>";
 } else {
     echo "<h1>Introduce  correctamente los valores por la url</h1>";
 };
+*/
+
+
+/* Ejercicio 5 = Hacer un programa que muestre todos los numeros entre dos numeros
+* que nos lleguen por la url($_GET);
+*/
+
+if(isset($_GET['numero1']) && isset($_GET['numero2'])){
+    $numero1 = $_GET['numero1'];
+    $numero2 = $_GET['numero2'];
+
+
+    for($i = $numero1; $i <= $numero2; $i++){
+        echo "<h4>$i</h4>";
+    }
+}else{
+    echo "<h1>Los parametros get no existen</h1>";
+}
